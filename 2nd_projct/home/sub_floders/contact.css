@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container Style */
+body {
+  background-color: #d4d7d9c3;
+  padding: 20px;
+  color: #333;
+}
+header{
+    color: #070707;
+    text-align: center;
+}
+
+/* Contact Table Styling */
+.contact-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-table th,
+.contact-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.contact-table th {
+  background-color: #f7f9fc;
+  color: #444;
+  font-weight: bold;
+  width: 30%;
+}
+
+.contact-table a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-table a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styling */
+.box2 {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box2 h4 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 20px;
+}
+
+.box2 label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.box2 input[type="text"],
+.box2 input[type="email"],
+.box2 input[type="tel"],
+.box2 textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.box2 input[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.box2 input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 6px;
+}
